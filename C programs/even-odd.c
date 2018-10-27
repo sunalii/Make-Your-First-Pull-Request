@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int main() {
-  int a;
+  int x;
   printf("Enter a Number: ");
-  scanf("%d", &a);
+  scanf("%d", &x);
 
-  if(a%2==0)
-      printf("%d is a Even.", a);
+  if(x%2==0)
+      printf("%d is Even.", x);
   else
-      printf("%d is Odd.", a);
+      printf("%d is Odd.", x);
 
   return 0;
 }
